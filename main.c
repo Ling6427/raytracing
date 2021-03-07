@@ -11,6 +11,7 @@
 #define ROWS 512
 #define COLS 512
 
+//test
 static void write_to_ppm(FILE *outfile, uint8_t *pixels,
                          int width, int height)
 {
