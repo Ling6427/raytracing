@@ -67,7 +67,6 @@ sphere sphere5 = {
     }
 };
 
-
 static const
 viewpoint view = {
     .vrp = { 40.0, 40.0, 40.0 },
