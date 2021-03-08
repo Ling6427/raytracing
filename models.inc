@@ -68,6 +68,18 @@ sphere sphere5 = {
 };
 
 static const
+sphere sphere6 = {
+    .center = { 5, 15, 1 },
+    .radius = 1.5,
+    .sphere_fill = {
+        .fill_color = { 1.0, 0.87, 0.7 },
+        .Kd = 0.8, .Ks = 0.1, .T = 0.0, .R = 0.1,
+        .index_of_refraction = 0.0, .phong_power = 30.0
+    }
+};
+
+
+static const
 viewpoint view = {
     .vrp = { 40.0, 40.0, 40.0 },
     .vpn = { -1.0, -1.0, -1.0 },
